@@ -1,0 +1,7 @@
+domain/CoinEnum.class
+domain/ItemEnum.class
+domain/Coin.class
+services/VendingMachine.class
+domain/Bucket.class
+domain/Item.class
+services/Inventory.class

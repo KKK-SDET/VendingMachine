@@ -1,0 +1,499 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9966770,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "vending machine is loaded",
+            "match": {
+              "location": "StepDefsVM.vending_machine_is_loaded(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "itemName"
+                ]
+              },
+              {
+                "cells": [
+                  "COKE"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "purchase item without change",
+        "description": "",
+        "id": "testing-vending-machine;purchase-item-without-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23854709,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects item",
+            "match": {
+              "location": "StepDefsVM.user_selects_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38802,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user deposits funds",
+            "match": {
+              "location": "StepDefsVM.user_deposits_funds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327957,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vending machine dispenses item",
+            "match": {
+              "location": "StepDefsVM.vending_machine_dispenses_item()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1258010,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "vending machine is loaded",
+            "match": {
+              "location": "StepDefsVM.vending_machine_is_loaded(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "itemName"
+                ]
+              },
+              {
+                "cells": [
+                  "COKE"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "purchase item with change returned",
+        "description": "",
+        "id": "testing-vending-machine;purchase-item-with-change-returned",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84212,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects item",
+            "match": {
+              "location": "StepDefsVM.user_selects_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16643,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user deposits funds",
+            "match": {
+              "location": "StepDefsVM.user_deposits_funds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27731,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "vending machine dispenses item",
+            "match": {
+              "location": "StepDefsVM.vending_machine_dispenses_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21490,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "and user get refunded",
+            "match": {
+              "location": "StepDefsVM.andUserGetRefunded()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 189490,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "vending machine is loaded",
+            "match": {
+              "location": "StepDefsVM.vending_machine_is_loaded(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "itemName"
+                ]
+              },
+              {
+                "cells": [
+                  "COKE"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "cancel purchase and refund",
+        "description": "",
+        "id": "testing-vending-machine;cancel-purchase-and-refund",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82099,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user selects item",
+            "match": {
+              "location": "StepDefsVM.user_selects_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16436,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user deposits funds",
+            "match": {
+              "location": "StepDefsVM.user_deposits_funds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50251,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user cancels purchase and get refunded",
+            "match": {
+              "location": "StepDefsVM.user_cancels_purchase_and_get_refunded()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 139276,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "vending machine is loaded",
+            "match": {
+              "location": "StepDefsVM.vending_machine_is_loaded(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "itemName"
+                ]
+              },
+              {
+                "cells": [
+                  "COKE"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "selecting a missing item",
+        "description": "",
+        "id": "testing-vending-machine;selecting-a-missing-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 68035,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user selects item",
+            "match": {
+              "location": "StepDefsVM.user_selects_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33913,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "vending machine gives error message",
+            "match": {
+              "location": "StepDefsVM.vendingMachineGivesErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 140063,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "vending machine is loaded",
+            "match": {
+              "location": "StepDefsVM.vending_machine_is_loaded(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "itemName"
+                ]
+              },
+              {
+                "cells": [
+                  "COKE"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "insufficient amount is provided",
+        "description": "",
+        "id": "testing-vending-machine;insufficient-amount-is-provided",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62230,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user selects item",
+            "match": {
+              "location": "StepDefsVM.user_selects_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80511,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user deposits funds and vending machine gives insufficient funds error message",
+            "match": {
+              "location": "StepDefsVM.userDepositsFundsAndVendingMachineGivesInsufficientFundsErrorMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18159,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user deposits insufficient amount",
+            "match": {
+              "location": "StepDefsVM.user_deposits_insufficient_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24795,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "vending machine dispenses item",
+            "match": {
+              "location": "StepDefsVM.vending_machine_dispenses_item()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 185803,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "vending machine is loaded",
+            "match": {
+              "location": "StepDefsVM.vending_machine_is_loaded(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "itemName"
+                ]
+              },
+              {
+                "cells": [
+                  "COKE"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "vending machine has insufficient change",
+        "description": "",
+        "id": "testing-vending-machine;vending-machine-has-insufficient-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86867,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user selects item",
+            "match": {
+              "location": "StepDefsVM.user_selects_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25585,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user deposits funds and vending machine gives insufficient change error message",
+            "match": {
+              "location": "StepDefsVM.userDepositsFundsAndVendingMachineGivesInsufficientChangeErrorMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14842,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user cancels purchase and get refunded",
+            "match": {
+              "location": "StepDefsVM.user_cancels_purchase_and_get_refunded()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "testing vending machine",
+    "description": "",
+    "id": "testing-vending-machine",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/vendingMachineTest.feature",
+    "tags": []
+  }
+]

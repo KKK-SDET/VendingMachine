@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.041387">
+<testcase classname="testing vending machine" name="purchase item without change" time="0.03623">
+<system-out><![CDATA[Given vending machine is loaded.............................................passed
+When user selects item......................................................passed
+And user deposits funds.....................................................passed
+Then vending machine dispenses item.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="testing vending machine" name="purchase item with change returned" time="0.001563">
+<system-out><![CDATA[Given vending machine is loaded.............................................passed
+When user selects item......................................................passed
+And user deposits funds.....................................................passed
+Then vending machine dispenses item.........................................passed
+And and user get refunded...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="testing vending machine" name="cancel purchase and refund" time="0.001378">
+<system-out><![CDATA[Given vending machine is loaded.............................................passed
+When user selects item......................................................passed
+And user deposits funds.....................................................passed
+And user cancels purchase and get refunded..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="testing vending machine" name="selecting a missing item" time="0.000723">
+<system-out><![CDATA[Given vending machine is loaded.............................................passed
+When user selects item......................................................passed
+Then vending machine gives error message....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="testing vending machine" name="insufficient amount is provided" time="0.001032">
+<system-out><![CDATA[Given vending machine is loaded.............................................passed
+When user selects item......................................................passed
+And user deposits funds and vending machine gives insufficient funds error message.passed
+Then user deposits insufficient amount......................................passed
+And vending machine dispenses item..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="testing vending machine" name="vending machine has insufficient change" time="0.000461">
+<system-out><![CDATA[Given vending machine is loaded.............................................passed
+When user selects item......................................................passed
+And user deposits funds and vending machine gives insufficient change error message.passed
+Then user cancels purchase and get refunded.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
